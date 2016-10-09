@@ -1,0 +1,10 @@
+{
+  "name": "Behat tests for http://master-nm3mijlfxrvx4.eu.platform.sh",
+  "description": "Functional testing for http://master-nm3mijlfxrvx4.eu.platform.sh site.",
+  "require": {
+    "drupal/drupal-extension": "~3.0"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
