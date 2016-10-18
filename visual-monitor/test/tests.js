@@ -274,7 +274,10 @@ describe('Visual monitor testing', function() {
             '.fb-page',
             '.footer-links__list',
           ],
-        hide: [],
+        hide:
+          [
+            'header',
+          ],
         screenWidth: selectedCaps == 'chrome' ? [1200] : undefined,
       }, resultsCallback)
       .call(done);
