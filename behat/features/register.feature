@@ -4,7 +4,7 @@ Feature: Register
   We need to be able to have access to the register page
 
   @api
-  Scenario: Anon User user add smart agent
+  Scenario: Anon auth user add smart agent
     Given I am an anonymous user
     When  I visit the "/user/register"
     And   I should type my email
