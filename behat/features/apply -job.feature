@@ -5,7 +5,7 @@ Feature: Apply Job
 
   @api
   Scenario: Auth user apply job
-    Given I login with user "user1@example.com"
+    Given I register to the site
     When  I visit the homepage
     And   I should select the job option
     Then  I should see "עכשיו כשיש לך סוכן שמעדכן ודואג לך"
