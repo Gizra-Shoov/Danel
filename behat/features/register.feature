@@ -6,6 +6,6 @@ Feature: Register
   @api
   Scenario: Anon auth user add smart agent
     Given I am an anonymous user
-    When I register to the site
-    And Click on "מצאו לי עבודה!"
-    Then I should see "איך בא לכם לשלוח קורות חיים?"
+    When  I register to the site
+    And   I should click on "מצאו לי עבודה!" button
+    Then  I should see "איך בא לכם לשלוח קורות חיים?"
